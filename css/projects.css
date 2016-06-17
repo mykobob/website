@@ -1,0 +1,19 @@
+#projects {
+	margin: auto;
+	width: 780px;
+}
+
+.project {
+	margin-top: 25px;
+	width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+.project h2.project-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	font-size: 3em;
+}

@@ -14,6 +14,9 @@
 
 	<!-- Personal CSS-->
 	<link href="css/index.css" rel="stylesheet">
+		
+	<!-- Projects CSS-->
+	<link href="css/projects.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -26,83 +29,48 @@
 
 	</head>
 	
-	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<body data-spy="scroll" data-target=".navbar-fixed-top">
         <!-- Navigation -->
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#projects">Projects</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+        
     </body>
 
 	<section id="projects" class="no-padding">
-        <div class="container-fluid">
-            <div class="row no-gutter">
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+					<ul class="nav navbar-nav">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#projects">Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
                 <!-- generate this div -->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box darken">
-                        <img src="img/pushtv.png" class="img-responsive dim-hover" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Language processing and motion sensing
-                                </div>
-                                <div class="project-name">
-                                    PushTV
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box darken">
-                        <img src="img/pursonal.png" class="img-responsive dim-hover" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Android and Data Visualization
-                                </div>
-                                <div class="project-name">
-                                    Pursonal
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box darken">
-                        <img src="img/trail-of-lights-1-small.jpg" class="img-responsive dim-hover" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Soon
-                                </div>
-                                <div class="project-name">
-                                    No Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+		<div class="project">
+			<a href="projects/push-tv.html" class="portfolio-box darken">
+				<img src="img/pushtv.png" class="img-responsive dim-hover" alt="">
+				<h2 class="project-name">PushTV</h2>
+			</a>
+		</div>
+		<div class="project">
+			<a href="projects/pursonal.html" class="portfolio-box darken">
+				<img src="img/pursonal.png" class="img-responsive dim-hover" alt="">
+				<h2 class="project-name">Pursonal</h2>
+			</a>
+		</div>
+		<div class="project">
+			<a href="#" class="portfolio-box darken">
+				<img src="img/trail-of-lights-1-small.jpg" class="img-responsive dim-hover" alt="">
+				<h2 class="project-name">No Name</h2>
+			</a>
+		</div>
     </section>
 	
 </html>
