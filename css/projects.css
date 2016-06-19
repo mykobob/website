@@ -1,10 +1,15 @@
 #projects {
 	margin: auto;
-	width: 780px;
+	width: 650px;
+}
+
+.project-div {
+	position: relative;
+	top: 80px;
 }
 
 .project {
-	margin-top: 25px;
+	margin-bottom: 25px;
 	width: 100%;
 	padding: 0;
 	position: relative;
@@ -16,4 +21,16 @@
 	left: 0;
 	padding: 20px;
 	font-size: 3em;
+}
+
+.project .project-description {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	margin-left: 10px;
+}
+
+.project .project-description ul {
+	list-style: none;
+	padding: 0;
 }

@@ -99,6 +99,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
+	text-shadow: 1px 1px 0 #34495e, 1px 1px 5px #34495e;
 }
 
 .connect-box {
