@@ -10,24 +10,6 @@ var load_email = function () {
     $("#email").attr("href", "mailto:"+em);
 };
 
-var load_background_pic = function() {
-	
-	var index = (parseInt(Math.random() * 5, 10));
-	if (index < 4) {
-		var imageUrl = 'trail-of-lights-' + index + '.jpg';
-	} else {
-		var imageUrl = 'lake-sammamish.jpg';		
-	}
-	
-	
-	$(".background-pic").css({
-			"background": 
-				'url(img/' + imageUrl + ') no-repeat bottom center scroll',
-		}
-	);
-}
-
 $(function() {
 	load_email();
-	load_background_pic();
 });
