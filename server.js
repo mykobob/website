@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var fs = require('fs');
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -16,6 +17,10 @@ app.get('/', function(request, response) {
 
 app.get('/projects', function(req, res) {
     res.sendFile(__dirname + '/views/projects.html');
+});
+
+app.get('/podcasts', function(req, res) {
+    res.sendFile(__dirname + '/views/podcasts.html');
 });
 
 app.listen(app.get('port'), function() {
